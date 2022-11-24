@@ -1,0 +1,18 @@
+
+ nav img
+{
+ width: 80px;
+ height: 60px;
+ float: right;
+
+}
+nav
+{
+  background-color: rgb(164, 222, 245);
+}
+p
+{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.06cm;
+}

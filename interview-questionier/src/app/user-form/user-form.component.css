@@ -1,0 +1,10 @@
+.user{
+  display:flex;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+

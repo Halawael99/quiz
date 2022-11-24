@@ -1,0 +1,49 @@
+{{userForm.value |json}}
+<div class="user">
+<div class="card" style="width: 35rem;height: 35;">
+<section style="margin-top:20px; margin-bottom:20px;">
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+  <form #userForm ="ngForm">
+
+    <div class="form-group col-md-12" >
+      <h5><label for="">Enter Name:</label></h5>
+      <input type="text" class="form-control" name="user name" ngModel>
+    </div>
+    <div class="form-group col-md-12">
+      <h5><label for="">Enter Email:</label></h5>
+      <input type="text" class="form-control" name="email" ngModel>
+    </div>
+    <div class="form-group">
+      <h5><label >Please Select Department:</label></h5>
+      <select class="form-control">
+        <option selected>Please Choose One</option>
+        <option value="1">Java Quiz</option>
+        <option value="1">C# Quiz</option>
+        <option value="1">Python Quiz </option>
+
+      </select>
+    </div>
+    <p></p>
+
+      <img src="assets/image/b.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Please click on start to start the Quiz.</p>
+         You have only 45 second for each Question
+
+      </div>
+       <div class="btn">
+      <button class="btn btn-primary "  routerLink="/exam">start</button>
+
+
+    </div>
+
+  </form>
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</div>
