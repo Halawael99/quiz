@@ -1,0 +1,169 @@
+{
+  "questions": [{
+          "questionText": "Which type of Programming does Python support?",
+          "options": [{
+                  "text": " object-oriented programming"
+
+              },
+              {
+                  "text": "structured programming"
+              },
+              {
+                  "text": "functional programming"
+              },
+              {
+                  "text": "all of the mentioned",
+                  "correct": true
+              }
+          ]
+
+      },
+      {
+          "questionText": "Which of the following is the correct extension of the Python file?",
+          "options": [{
+                  "text": ".python"
+              },
+              {
+                  "text": ".pl"
+              },
+              {
+                  "text": ".py",
+                  "correct": true
+              },
+              {
+                  "text": ".p"
+              }
+
+
+          ]
+      },
+      {
+          "questionText": "Is Python case sensitive when dealing with identifiers?",
+          "options": [{
+                  "text": "no",
+                  "correct": true
+
+              },
+              {
+                  "text": " yes"
+
+              },
+              {
+                  "text": " machine dependent"
+              },
+              {
+                  "text": "None of the above"
+              }
+          ]
+
+      },
+      {
+          "questionText": "All keywords in Python are in _________",
+          "options": [{
+                  "text": "Capitalized"
+              },
+
+              {
+                  "text": " lower case"
+              },
+              {
+                  "text": "UPPER CASE"
+              },
+              {
+                  "text": "None of the above",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "questionText": "Which keyword is used for function in Python language?",
+          "options": [{
+                  "text": "Function"
+              },
+              {
+                  "text": "Def",
+                  "correct": true
+              },
+              {
+                  "text": "Fun"
+              },
+              {
+                  "text": "Define"
+              }
+          ]
+      },
+      {
+          "questionText": "What will be the value of the following Python expression 4 + 3 % 5 ?",
+          "options": [{
+                  "text": "7",
+                  "correct": true
+              },
+              {
+                  "text": "2"
+              },
+              {
+                  "text": " 4"
+              },
+              {
+                  "text": "1"
+              }
+          ]
+      },
+      {
+          "questionText": "Which of the following functions can help us to find the version of python that we are currently working on?",
+          "options": [
+              {
+                "text": " sys.version(1)",
+                "correct":true
+              },
+              {
+                  "text": "sys.version(0)"
+              },
+              {
+                  "text": "sys.version()"
+              },
+
+              {
+                  "text": "sys.version"
+              }
+          ]
+
+      },
+      {
+          "questionText": "What is the order of precedence in python?",
+          "options": [{
+                  "text": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction"
+              },
+              {
+                  "text": "Exponential, Parentheses, Division, Multiplication, Addition, Subtraction"
+              },
+              {
+                  "text": "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition"
+              },
+              {
+                  "text": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "questionText": "What does pip stand for python?",
+          "options": [{
+                  "text": "unlimited length"
+              },
+              {
+                  "text": " all private members must have leading and trailing underscores"
+              },
+              {
+                  "text": "Preferred Installer Program",
+                  "correct": true
+              },
+              {
+                  "text": " none of the mentioned"
+              }
+          ]
+
+      }
+  ]
+}
+

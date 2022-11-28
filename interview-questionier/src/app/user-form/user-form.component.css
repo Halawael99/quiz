@@ -6,5 +6,11 @@
   display: flex;
   justify-content: center;
 }
+.card
+{
+  max-width: 600px;
+  margin-top:10 px;
+  padding: 10px;
+}
 
 

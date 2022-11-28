@@ -1,99 +1,30 @@
-.quix-box{
-
-}
-.custom-box
+.card
 {
-  max-width: 100%;
-  background-color:#fff;
-  margin: 20px auto;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 10px;
-  border-radius: 10px;
-  animation:fadeInRight 1s ease;
 }
-@keyframes fadeInRight {
-0%{
-  transform:translateX(40px) ;
-  opacity: 0;
-}
-100%{
-  transform:translateX(0px) ;
-  opacity: 1;
-}
-}
-.quix-box .answers-indi,
-.quix-box .question-number,
-.quix-box .question-text,
-.quix-box .option-container
+li
 {
-  width: 100%;
-  float: left;
-}
-.quix-box .question-number{
-font-size: 18px;
-color:brown;
-font-weight: 600;
-border-bottom: 1px solid #cccccc;
-padding-bottom: 10px ;
-line-height: 25px;
-}
-.quix-box .option-container .option
-{
- background-color:#cccccc ;
- padding: 13px 15px;
- font-size:16px ;
- line-height: 22px;
- color:black;
- border-radius: 5px;
- margin-bottom: 10px;
- cursor: pointer;
- text-transform: capitalize;
- opacity: 1;
- animation:fadeIn 0.3s ease forwards;
- position: relative;
- overflow: hidden;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
 }
 
+li .card:hover
+{
+  border: 1px solid skyblue;
+
+}
+ol
+{
+  padding: 0;
+}
+.image{
+  width: 100px;
+  height: 100px;
+
+}
 .btn{
-  padding: 15px 45px;
-  background-color:pink;
-  border:none;
-  border-radius: 5px;
-}
-.quix-box .answers-indi
-{
-  border-top: 1px solid #cccccc;
-}
-.quix-box .answers-indi div
-{
-  height: 40px;
-  width :40px;
-  display: inline-block;
-  background-color: #cccccc;
-  border-radius:50%;
-  margin-right: 3px;
-  margin-left: 15px;
-}
-.result-box
-{
-  text-align: center;
-}
-.result-box h1
-{
-  font-size: 36px;
-  line-height: 42px;
-
-}
-.result-box table {
-  width: 100%;
-  border-collapse: collapse ;
-  margin: 30px 0;
-}
-.result-box table td {
-  border: 1px solid #cccccc;
-  padding: 8px 15px;
-  font-weight:500;
-  width:50%;
-  text-align: left;
-  font-size:18px ;
-
+  background-color: pink;
 }

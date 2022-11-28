@@ -1,0 +1,166 @@
+{
+  "questions": [{
+          "questionText": "C# runs on the ___?",
+          "options": [{
+                  "text": ".NET Framework",
+                  "correct": true
+
+              },
+              {
+                  "text": "Java Virtual Machine"
+              },
+              {
+                  "text": "Both A. and B."
+              },
+              {
+                  "text": "None of the above"
+              }
+          ]
+
+      },
+      {
+          "questionText": "C# programming language is used to develop?",
+          "options": [{
+                  "text": "Web apps"
+              },
+              {
+                  "text": " Desktop app"
+              },
+              {
+                  "text": "Mobiles apps"
+              },
+              {
+                  "text": "All of the above",
+                  "correct": true
+
+              }
+          ]
+      },
+      {
+          "questionText": "What is the extension of a C# language file?",
+          "options": [{
+                  "text": ".c"
+              },
+              {
+                  "text": ".cpp"
+
+              },
+              {
+                  "text": ".cs",
+                  "correct": true
+              },
+              {
+                  "text": ".csp"
+              }
+          ]
+
+      },
+      {
+          "questionText": "CLR stands for ___?",
+          "options": [{
+                  "text": "Common Type System"
+              },
+
+              {
+                  "text": "Common Language Specification"
+              },
+              {
+                  "text": "Common Language Runtime",
+                  "correct": true
+              },
+              {
+                  "text": "Java Virtual Machine"
+              }
+          ]
+      },
+      {
+          "questionText": "Which symbols are used to mark the beginning and end of a code block?",
+          "options": [{
+                  "text": "Square brackets []"
+              },
+              {
+                  "text": "Curly braces {}",
+                  "correct": true
+              },
+              {
+                  "text": "Round brackets ()"
+              },
+              {
+                  "text": "Double-quotes "
+              }
+          ]
+      },
+      {
+          "questionText": "Every C# statement is terminated by ___?",
+          "options": [{
+                  "text": "Colon (:)"
+              },
+              {
+                  "text": "Semicolon (;)",
+                  "correct": true
+              },
+              {
+                  "text": "Comma (,)"
+              },
+              {
+                  "text": "Dot (.)"
+              }
+          ]
+      },
+      {
+          "questionText": "In C#, a single-line comment starts with ___?",
+          "options": [
+              {
+                "text": "Two forward slashes (//)",
+                "correct":true
+              },
+              {
+                  "text": "Two backward slashes (\\)"
+              },
+              {
+                  "text": "A hash character (#)"
+              },
+
+              {
+                  "text": "A dollar character ($)"
+              }
+          ]
+
+      },
+      {
+          "questionText": "Which C# keyword is used to define a constant?",
+          "options": [{
+                  "text": "define"
+              },
+              {
+                  "text": "fixed"
+              },
+              {
+                  "text": "constant"
+              },
+              {
+                  "text": "const",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "questionText": "Which is not a valid C# data type?",
+          "options": [{
+                  "text": "long"
+              },
+              {
+                  "text": "int"
+              },
+              {
+                  "text": "float"
+              },
+              {
+                  "text": "complex",
+                  "correct": true
+              }
+          ]
+
+      }
+  ]
+}

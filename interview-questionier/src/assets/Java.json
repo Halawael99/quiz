@@ -1,0 +1,172 @@
+{ 
+  "questions": [{
+          "questionText": "Which Set class should be most popular in a multi-threading environment, considering performance constraint?",
+          "options": [{
+                  "text": " HashSet"
+
+              },
+              {
+                  "text": "ConcurrentSkipListSet",
+                  "correct": true
+              },
+              {
+                  "text": "LinkedHashSet"
+              },
+              {
+                  "text": "CopyOnWriteArraySet"
+              }
+          ]
+
+      },
+      {
+          "questionText": "Which Map class should be most popular in a multi-threading environment, considering performance constraint?",
+          "options": [{
+                  "text": "Hashtable"
+              },
+              {
+                  "text": " CopyOnWriteMap",
+                  "correct": true
+              },
+              {
+                  "text": "ConcurrentHashMap"
+              },
+              {
+                  "text": "ConcurrentMap"
+
+              }
+          ]
+      },
+      {
+          "questionText": "Which allows the removal of elements from a collection?",
+          "options": [{
+                  "text": "Enumeration"
+              },
+              {
+                  "text": "Iterator"
+
+              },
+              {
+                  "text": " Both"
+              },
+              {
+                  "text": "None of the above",
+                  "correct": true
+              }
+          ]
+
+      },
+      {
+          "questionText": "Which permits the removal of elements from a collection?",
+          "options": [{
+                  "text": "Enumeration"
+              },
+
+              {
+                  "text": "Hashtable"
+              },
+              {
+                  "text": "Iterator",
+                  "correct": true
+              },
+              {
+                  "text": "None of the above"
+              }
+          ]
+      },
+      {
+          "questionText": "The Comparator interface contains the method?",
+          "options": [{
+                  "text": "compareWith"
+              },
+              {
+                  "text": "compareTo()"
+              },
+              {
+                  "text": "compare()",
+                  "correct": true
+              },
+              {
+                  "text": "compareWith()"
+              }
+          ]
+      },
+      {
+          "questionText": "What should we use when add and remove operations are more frequent than get operations",
+          "options": [{
+                  "text": "LinkedList",
+                  "correct": true
+              },
+              {
+                  "text": "ArrayList"
+              },
+              {
+                  "text": "Vector"
+              },
+              {
+                  "text": "async"
+              }
+          ]
+      },
+      {
+          "questionText": "Which of those is synchronized?",
+          "options": [
+              {
+                "text": " Hashtable",
+                "correct":true
+              },
+              {
+                  "text": "TreeMap"
+              },
+              {
+                  "text": "HashMap"
+              },
+
+              {
+                  "text": "LinkedHashSet"
+              }
+          ]
+
+      },
+      {
+          "questionText": "Which offers the best performance?",
+          "options": [{
+                  "text": "TreeMap"
+              },
+              {
+                  "text": "map",
+                  "correct": true
+              },
+              {
+                  "text": "HashMap"
+              },
+              {
+                  "text": "LinkedHashMap"
+              }
+          ]
+      },
+      {
+          "questionText": "Which of these is the most popularly used class as a key in a HashMap?",
+          "options": [{
+                  "text": "String"
+              },
+              {
+                  "text": "Integer",
+                  "correct": true
+              },
+              {
+                  "text": "Double"
+              },
+              {
+                  "text": "All of the above"
+              }
+          ]
+
+      }
+  ]
+
+}
+
+
+
+
+
