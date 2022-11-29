@@ -34,6 +34,12 @@ export class ExamComponent implements OnInit {
     this.questionService.getQuestionJson()
       .subscribe(res => {
         this.questionList = res.questions;
+        
+
+        const shuffled = this.questionList.map((value:any) => ({value , sort :   Math.random()}))
+        .sort((a : any,b: any)=> a.sort - b.sort)
+        .map(({value}: any)=>value)
+        this.questionList=shuffled
       })
   }
   nextQuestion() {
@@ -94,5 +100,5 @@ export class ExamComponent implements OnInit {
     this.progress = ((this.currentQuestion / 5) * 100).toString();
     return this.progress;
   }
-  
+
 }

@@ -17,4 +17,5 @@ export class QuestionService {
     this.quizKey = key;
     console.log(this.quizKey)
   }
+
 }
