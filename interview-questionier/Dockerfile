@@ -1,12 +1,10 @@
-FROM  node:alpine
-
-WORKDIR /usr/src/app
-
-COPY package.json .
-COPY package-lock.json .
-
-RUN npm install
-
+# stage 1
+FROM node:latest as node
+WORKDIR /app
 COPY . .
+RUN npm install
+RUN npm run build --prod
 
-CMD /usr/src/app/node_modules/.bin/ng serve --host 0.0.0.0 --disableHostCheck
+# stage 2
+FROM nginx:alpine
+COPY --from=node /app/dist/interview-questionier /usr/share/nginx/html
